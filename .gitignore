@@ -1,0 +1,5 @@
+*.cache
+*.html
+keys/*
+*keyring.txt
+*~

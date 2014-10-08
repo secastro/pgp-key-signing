@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>OARC Fall 2014 Los Angeles Workshop - PGP keys</title>
+<link href="printout.css" rel="stylesheet" type="text/css"/>
+<head>
+<body>
+<h2>OARC Fall 2014 Los Angeles Workshop</h2>
+<h3>PGP Key signing party</h3>
+<table border="1">
+<thead>
+<tr>
+<th>Fingerprint<br/>Key type / Key size <br/>Creation date / Expiration
+date<br/>
+<th>UIDs</th>
+<th class="header">Finger print OK</th>
+<th class="header">ID OK</th>
+</tr>
+</thead>
+<tbody>
+<?py for key in keylist: ?>
+    <tr>
+        <td class="fingerprint"><span class="fprint">${key['fingerprint']}</span><br/>
+            ${key['algo']} / ${ key['size']}<br/>
+            ${key['creation']} / ${ key['expires']}</td>
+        <td class="UID">
+        <?py for u in key.get("uid"): ?>
+            ${u}<br/>
+        <?py #endfor ?></td>
+        <td class="ok">&nbsp;</td>
+        <td class="ok">&nbsp;</td>
+    </tr> 
+<?py #endfor ?>
+</tbody>
+
+</table>
+<div class="update">Last update: ${last_update}</div>
+</body>

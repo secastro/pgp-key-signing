@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.at {
+    padding: 5px;
+    font-style: italic;
+    font-size: 80%;
+}
+@media all {
+    .page-break { display: none; }
+}
+
+@media print {
+    .page-break { display: block; page-break-before: always; }
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+.fprint {
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 14px;
+}
+.header {
+    height: 60px;
+}
+.ok {
+    width: 10%;
+    float: left;
+}
+.uid {
+    width: 40%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.fingerprint {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 38%;
+    font-size: 12px;
+}
