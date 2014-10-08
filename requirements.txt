@@ -1,2 +1,2 @@
-tenjin=1.1.1
-python-gnupg=0.3.6
+tenjin>=1.1.1
+python-gnupg>=0.3.6
