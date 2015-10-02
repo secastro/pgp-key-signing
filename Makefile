@@ -1,4 +1,4 @@
-EVENT=oarc-los-angeles-2014
+EVENT=oarc-montreal-2015
 KEYRING=./${EVENT}-keyring.txt
 GPGOPT="--no-default-keyring"
 
