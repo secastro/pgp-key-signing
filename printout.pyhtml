@@ -1,11 +1,16 @@
-<html>
-<head>
-<title>OARC Fall 2014 Los Angeles Workshop - PGP keys</title>
+<HTML>
+<HEAD>
+<title>DNS-OARC Montreal Fall 2015 Workshop - PGP keys</title>
 <link href="printout.css" rel="stylesheet" type="text/css"/>
-<head>
-<body>
-<h2>OARC Fall 2014 Los Angeles Workshop</h2>
-<h3>PGP Key signing party</h3>
+<HEAD>
+
+<BODY>
+<div class="clearfix">
+   <img class="logoimg" src="img/dns-oarc.jpg">
+   <h2 style="display:inline;">DNS-OARC Montreal Fall 2015 Workshop</h2>
+   <h3 >PGP Key signing party</h3>
+</div>
+   
 <table border="1">
 <thead>
 <tr>
@@ -35,3 +40,6 @@ date<br/>
 </table>
 <div class="update">Last update: ${last_update}</div>
 </body>
+
+</BODY>
+</HTML>
