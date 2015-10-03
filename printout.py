@@ -10,7 +10,7 @@ from tenjin.helpers import *
 def replace_at(t):
     return re.sub("@", " at ", t)
 
-id2label = {'17': 'DSA', '1': 'RSA'}
+id2label = {'17': 'DSA', '1': 'RSA', '18': 'ECDH', '19': 'ECDSA', '16': 'Elgamal', '22':'EdDSA (ed25519)' }
 
 keylist = []
 
