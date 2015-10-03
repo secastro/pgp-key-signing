@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 you will get the modules needed for this code.
 
-## Encouraging use of GPG 2.1
+### Encouraging use of GPG 2.1
 
 It's encouraged to use GPG version 2.1 (See release notes here
 https://www.gnupg.org/faq/whats-new-in-2.1.html ).
