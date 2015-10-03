@@ -3,18 +3,20 @@
 By running
 
 ```
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 you will get the modules needed for this code.
 
-## Selection the GPG version that work better for you
+## Encouraging use of GPG 2.1
 
-It's encouraged to use GPG version 2.1
+It's encouraged to use GPG version 2.1 (See release notes here
+https://www.gnupg.org/faq/whats-new-in-2.1.html ).
+
 If you are using OSX with brew, then you could use this:
 
 ```
-    brew install homebrew/versions/gnupg21
+brew install homebrew/versions/gnupg21
 ```
 
 ## Running
