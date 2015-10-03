@@ -2,9 +2,20 @@
 
 By running
 
+```
     pip install -r requirements.txt
+```
 
 you will get the modules needed for this code.
+
+## Selection the GPG version that work better for you
+
+It's encouraged to use GPG version 2.1
+If you are using OSX with brew, then you could use this:
+
+```
+    brew install homebrew/versions/gnupg21
+```
 
 ## Running
 
