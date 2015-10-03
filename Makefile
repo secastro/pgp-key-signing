@@ -9,7 +9,7 @@ refresh: keys.json
 keys.json:
 	for k in keys/*.asc; do \
         echo "Key file $$k" ;\
-		gpg --keyring ${KEYRING} ${GPGOPT} --import "$$k" ;\
+		gpg2 --keyring ${KEYRING} ${GPGOPT} --import "$$k" ;\
     done
 	python list-keys.py ${KEYRING}
 
@@ -17,10 +17,10 @@ clean:
 	rm -f ${KEYRING}
 
 show:
-	gpg --keyring ${KEYRING} ${GPGOPT} --list-keys
+	gpg2 --keyring ${KEYRING} ${GPGOPT} --list-keys
 
 export:
-	gpg --keyring ${KEYRING} ${GPGOPT} --export \
+	gpg2 --keyring ${KEYRING} ${GPGOPT} --export \
         --armor > ${EVENT}.asc
 
 

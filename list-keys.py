@@ -6,7 +6,7 @@ if len(sys.argv) == 2:
     keyring = sys.argv[1]
 
 gpg = gnupg.GPG(keyring=keyring, verbose=True,
-                gpgbinary='/usr/local/MacGPG2/bin/gpg2')
+                gpgbinary='/usr/local/bin/gpg2')
 gpg.encoding = 'utf-8'
 
 keylist = []
